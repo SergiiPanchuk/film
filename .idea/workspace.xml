@@ -1,31 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9d1b597e-0385-4fe8-a06e-e42cea8c6ef6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/film.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon/DataIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon/RatingIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon/TimeIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon/logo-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenreContainer/Genre.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenreContainer/Genre.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenreContainer/Genres.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenreContainer/Genres.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderContainer/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderContainer/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderContainer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieContainer/Movie.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieContainer/Movie.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieContainer/MovieDetails.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieContainer/MovieDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieContainer/Movies.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieContainer/Movies.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/StarRatingContainer/StarRating.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/urls.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/urlsImg.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/detailsInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/genreInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/imageInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/movieInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/moviesInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/MainLayouts.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/MainLayouts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layouts/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/GenreIdPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/GenrePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/HomePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/MovieDetailsPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/PopularPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/TopPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/UpcomingPage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/btnPrevNext.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/axiosService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/genreService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/movieService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/IResType.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +94,9 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "js.last.introduce.type": "CONST",
+    "last_opened_file_path": "C:/Users/Сергій/IdeaProjects/film/src/pages",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +106,14 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Сергій\IdeaProjects\film\src\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Сергій\IdeaProjects\film\public\icon" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,6 +123,9 @@
       <option name="presentableId" value="Default" />
       <updated>1699208688209</updated>
       <workItem from="1699208689487" duration="377000" />
+      <workItem from="1699465258591" duration="9736000" />
+      <workItem from="1699476297994" duration="6255000" />
+      <workItem from="1699554619949" duration="12680000" />
     </task>
     <servers />
   </component>
