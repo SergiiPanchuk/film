@@ -1,7 +1,7 @@
 import {FC} from "react";
 
 import {IMovie} from "../../interfaces";
-import {PopularMovie} from "./Movie";
+import {Movie} from "./Movie";
 import css from "./Movies.module.css"
 
 interface IProps {
@@ -12,7 +12,7 @@ const Movies: FC<IProps> = ({movies}) => {
 
     return (
         <div className={css.PopularMovies}>
-            {movies.map((movie) => <PopularMovie key={movie.id} movie={movie}/>)}
+            {movies.map((movie) => <Movie key={movie.id} movie={movie}/>)}
         </div>
     );
 };

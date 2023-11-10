@@ -12,6 +12,7 @@ const urls ={
         top:top,
         upcoming:upcoming,
         byMovieId:(id:string)=>`/movie/${id}`,
+        byName:(name:string) => `/search/movie?query=${name}`
     },
     genre:{
         genre:genre,

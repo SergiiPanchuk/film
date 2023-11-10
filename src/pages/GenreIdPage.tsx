@@ -1,15 +1,15 @@
 import {useParams, useSearchParams} from "react-router-dom";
 import React, {useEffect, useState} from "react";
 import {genreService} from "../services/genreService";
-import {IMovie, IMovies} from "../interfaces";
+import {IMovies} from "../interfaces";
 import {Movies} from "../components/MovieContainer/Movies";
 import css from "./btnPrevNext.module.css";
 
 const GenreIdPage = () => {
 
-    const { genreId } = useParams();
+    const {genreId} = useParams();
 
-    const [movies,setMovies] = useState<IMovies>(null);
+    const [movies, setMovies] = useState<IMovies>(null);
     const [query, setQuery] = useSearchParams({page: '1'});
     const [prevNext, setPrevNext] = useState({prev: null, next: null});
 
@@ -31,8 +31,7 @@ const GenreIdPage = () => {
             if (movies.total_pages - 1 >= +prev.get('page')) {
                 prev.set('page', `${+prev.get('page') + 1}`);
                 return prev;
-            }
-            else {
+            } else {
                 setPrevNext({prev, next: 0})
             }
         })

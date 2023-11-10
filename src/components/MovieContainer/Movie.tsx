@@ -11,7 +11,7 @@ interface IProps {
 }
 
 
-const PopularMovie: FC<IProps> = ({movie}) => {
+const Movie: FC<IProps> = ({movie}) => {
 
     const {title, poster_path,id,vote_average} = movie;
     const [query, setQuery] = useSearchParams(`id=${id}`);
@@ -35,4 +35,4 @@ const PopularMovie: FC<IProps> = ({movie}) => {
     );
 };
 
-export {PopularMovie};
+export {Movie};

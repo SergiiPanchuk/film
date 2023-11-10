@@ -1,23 +1,28 @@
 import React, {useEffect, useState} from "react";
-import {useSearchParams} from "react-router-dom";
+import {useLocation, useSearchParams} from "react-router-dom";
 
 import {IMovies} from "../interfaces";
 import {movieService} from "../services";
 import {Movies} from "../components/MovieContainer/Movies";
 import css from "./btnPrevNext.module.css";
 
-const TopPage = () => {
+
+const SearchPage = () => {
+    const {search} = useLocation();
+    const queryParams = new URLSearchParams(search);
+    const name = queryParams.get('movieName');
+
 
     const [movies, setMovies] = useState<IMovies>(null);
     const [query, setQuery] = useSearchParams({page: '1'});
     const [prevNext, setPrevNext] = useState({prev: null, next: null});
 
     useEffect(() => {
-        movieService.getTop(query.get('page')).then(({data}) => {
+        movieService.getByName(name, query.get('page')).then(({data}) => {
             setMovies(data)
             setPrevNext({prev: data.page - 1, next: data.page + 1})
         })
-    }, [query.get('page'), query])
+    }, [query.get('page'), query, name])
 
     const prev = () => {
         setQuery((prev) => {
@@ -30,13 +35,11 @@ const TopPage = () => {
             if (movies.total_pages - 1 >= +prev.get('page')) {
                 prev.set('page', `${+prev.get('page') + 1}`);
                 return prev;
-            }
-            else {
+            } else {
                 setPrevNext({prev, next: 0})
             }
         })
     }
-
 
     return (
         <div>
@@ -49,5 +52,4 @@ const TopPage = () => {
     );
 };
 
-
-export {TopPage};
+export {SearchPage};

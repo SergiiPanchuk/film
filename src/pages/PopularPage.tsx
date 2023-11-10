@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from "react";
+import {useSearchParams} from "react-router-dom";
 
 import {IMovies} from "../interfaces";
 import {movieService} from "../services";
 import {Movies} from "../components/MovieContainer/Movies";
-import {useSearchParams} from "react-router-dom";
 import css from "./btnPrevNext.module.css"
 
 const PopularPage = () => {
