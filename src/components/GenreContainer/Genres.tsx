@@ -12,7 +12,10 @@ const Genres: FC<IProps> = ({genre}) => {
 
     return (
         <div className={css.Genres}>
-            {genre.map((genre) => <Genre key={genre.id} genre={genre}/>)}
+            <h4>Genre:</h4>
+            <div className={css.Genres__container}>
+                {genre.map((genre) => <Genre key={genre.id} genre={genre}/>)}
+            </div>
         </div>
     );
 };

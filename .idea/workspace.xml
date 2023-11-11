@@ -4,27 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d1b597e-0385-4fe8-a06e-e42cea8c6ef6" name="Changes" comment="add Genre">
-      <change afterPath="$PROJECT_DIR$/public/icon/Search-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/Search1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icon/User.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/searchByNameInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SearchPage.tsx" afterDir="false" />
+    <list default="true" id="9d1b597e-0385-4fe8-a06e-e42cea8c6ef6" name="Changes" comment="add search functional">
+      <change afterPath="$PROJECT_DIR$/public/icon/inkognito.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CastContainers/Actor.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CastContainers/Actor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CastContainers/Actors.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CastContainers/Actors.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderContainer/SelectModes.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderContainer/SelectModes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/castInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/castService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenreContainer/Genres.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenreContainer/Genres.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/GenreContainer/Genres.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenreContainer/Genres.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeaderContainer/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderContainer/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeaderContainer/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderContainer/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieContainer/Movie.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieContainer/Movie.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieContainer/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieContainer/Movie.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MovieContainer/Movies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieContainer/Movies.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieContainer/MovieDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieContainer/MovieDetails.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/urls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/urls.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/interfaces/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/GenreIdPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GenreIdPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/PopularPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PopularPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/TopPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TopPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/UpcomingPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UpcomingPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/movieService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movieService.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,26 +51,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "C:/Users/Сергій/IdeaProjects/film/public/icon",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\Сергій\\IdeaProjects\\film\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Сергій/IdeaProjects/film/public/icon&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Сергій\\IdeaProjects\\film\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Сергій\IdeaProjects\film\public\icon" />
@@ -95,7 +92,8 @@
       <workItem from="1699465258591" duration="9736000" />
       <workItem from="1699476297994" duration="6255000" />
       <workItem from="1699554619949" duration="12706000" />
-      <workItem from="1699641903003" duration="10349000" />
+      <workItem from="1699641903003" duration="12964000" />
+      <workItem from="1699729696784" duration="5069000" />
     </task>
     <task id="LOCAL-00001" summary="add Genre">
       <option name="closed" value="true" />
@@ -105,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699567676459</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add search functional">
+      <option name="closed" value="true" />
+      <created>1699652755277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699652755277</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add Genre" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Genre" />
+    <MESSAGE value="add search functional" />
+    <option name="LAST_COMMIT_MESSAGE" value="add search functional" />
   </component>
 </project>

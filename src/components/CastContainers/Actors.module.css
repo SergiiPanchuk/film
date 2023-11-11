@@ -1,0 +1,16 @@
+.Actor__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.actors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h4 {
+    margin-top: 10%;
+    font-size: 34px;
+    color: var(--text-color);
+}

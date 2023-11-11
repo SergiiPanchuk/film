@@ -3,6 +3,7 @@ import {NavLink, useNavigate} from "react-router-dom";
 
 
 import css from "./Header.module.css"
+import {SelectModes} from "./SelectModes";
 
 const Header = () => {
     const [movieName, setMovieName] = useState('');
@@ -32,6 +33,9 @@ const Header = () => {
                     <input type="text" placeholder={'Search movies.......'} className={css.search_input}
                            value={movieName} onChange={handleChange}></input>
                     <img src="/icon/Search1.svg" alt="search" className={css.search_icon} onClick={Search}/>
+                </div>
+                <div className={css.select__modes}>
+                    <SelectModes/>
                 </div>
                 <div className={css.user_block}>
                     <img src="/icon/User.svg" alt="user"/>

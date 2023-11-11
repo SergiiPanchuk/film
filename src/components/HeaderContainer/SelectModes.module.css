@@ -1,0 +1,12 @@
+.SelectModes {
+
+}
+.SelectModes button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: var(--font-family);
+    color: var(--background);
+    background: var(--btn-color);
+    cursor: pointer;
+}

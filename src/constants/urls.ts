@@ -17,6 +17,9 @@ const urls ={
     genre:{
         genre:genre,
         byGenreId:(genreId:string)=>`/discover/movie?with_genres=${genreId}`
+    },
+    cast:{
+        byMovieId:(movie_id:number)=>`/movie/${movie_id}/credits`
     }
 }
 
