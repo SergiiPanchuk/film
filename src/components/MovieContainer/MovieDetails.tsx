@@ -13,7 +13,7 @@ interface IProps {
 
 const MovieDetails: FC<IProps> = ({movie}) => {
     const {
-        original_title, poster_path, overview, genres, title,
+        poster_path, overview, genres, title,
         release_date, runtime, vote_average, production_countries, budget, production_companies,
         revenue, id
     } = movie;

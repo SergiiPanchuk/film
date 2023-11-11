@@ -15,7 +15,7 @@ const Actors: FC<IProps> = ({id}) => {
 
     useEffect(() => {
         castService.getByMovieId(id).then(({data})=>setActors(data.cast))
-    }, [])
+    }, [id])
 
     return (
         <div className={css.Actor__container}>
