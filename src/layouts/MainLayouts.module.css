@@ -8,12 +8,24 @@
 }
 
 :root {
+
     --font-family: 'Montserrat', sans-serif;
     --font-overview: 'Inter', sans-serif;
-    --background: #0D0D0D;
-    --text-color: #fff;
     --btn-color: #F29D52;
 }
+
+/*Dark them*/
+html[data-theme='dark'] {
+    --background: #0D0D0D;
+    --text-color: #fff;
+}
+
+/*Light them*/
+html[data-theme='liht'] {
+    --background: #0D0D0D;
+    --text-color: #fff;
+}
+
 .MainLayouts {
     background: var(--background);
     padding: 0 46px;

@@ -4,6 +4,7 @@
 }
 .btn__prev_next {
     border-radius: 24px;
+    border: none;
     background: var(--btn-color);
     color: var(--background);
     font-size: 24px;

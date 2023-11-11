@@ -1,6 +1,6 @@
 .Header {
     height: 100px;
-    background: #0D0D0D;
+    background: var(--background);
     display: flex;
     align-items: center;
     width: 100%;

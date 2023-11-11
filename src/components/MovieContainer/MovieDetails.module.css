@@ -46,7 +46,7 @@ div p {
 
 .details__info_genre div {
     display: flex;
-    color: white;
+    color: var(--text-color);
     align-items: center;
     margin-right: 28px;
 }
