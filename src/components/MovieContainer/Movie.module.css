@@ -1,19 +1,20 @@
-.PopularMovie {
+.Movie {
     width: calc(20% - 10px);
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 
-.PopularMovie p {
+.Movie p {
     color: var(--text-color);
     margin: 20px 0 35px 0;
     cursor: pointer;
 }
 
-.PopularMovie p:hover {
+.Movie p:hover {
     color: var(--btn-color);
 }
 

@@ -5,12 +5,12 @@ interface ThemeHook {
     setTheme: React.Dispatch<React.SetStateAction<string>>;
 }
 
-const useTheme = ():ThemeHook => {
+const useTheme = (): ThemeHook => {
     const [theme, setTheme] = useState<string>('dark')
 
     useLayoutEffect(() => {
         document.documentElement.setAttribute("data-theme", theme)
-    },[theme])
+    }, [theme])
 
     return {theme, setTheme}
 }

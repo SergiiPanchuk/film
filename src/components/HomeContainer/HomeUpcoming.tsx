@@ -3,20 +3,16 @@ import {useNavigate, useSearchParams} from "react-router-dom";
 
 import {IMovie} from "../../interfaces";
 import {baseImgURL} from "../../constants";
-import css from "./Movie.module.css"
-import {MovieRating} from "../StarRatingContainer";
+import css from "./HomeUpcoming.module.css"
 
 interface IProps {
-    movie: IMovie
+    upcomingMovie: IMovie
 }
 
-
-const Movie: FC<IProps> = ({movie}) => {
-
-    const {title, poster_path,id,vote_average} = movie;
+const HomeUpcoming: FC<IProps> = ({upcomingMovie}) => {
+    const { title, backdrop_path, id} = upcomingMovie;
     const [query, setQuery] = useSearchParams(`id=${id}`);
     const navigate = useNavigate();
-
 
     const set = () => {
         setQuery((prev) => {
@@ -27,12 +23,10 @@ const Movie: FC<IProps> = ({movie}) => {
     }
 
     return (
-        <div className={css.Movie}>
-                <img src={baseImgURL + poster_path} alt={title} className={css.movie__poster} onClick={set}/>
-                <MovieRating rating={vote_average}/>
-                <p onClick={set}>{title}</p>
+        <div className={css.HomeUpcoming}>
+            <img src={baseImgURL + backdrop_path} alt={title} onClick={set}/>
         </div>
     );
-};
+}
 
-export {Movie};
+export {HomeUpcoming};

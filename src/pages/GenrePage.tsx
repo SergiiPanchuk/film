@@ -1,8 +1,8 @@
 import {useEffect, useState} from "react";
 
-import {Genres} from "../components/GenreContainer/Genres";
+import {Genres} from "../components";
 import {IGenre} from "../interfaces";
-import {genreService} from "../services/genreService";
+import {genreService} from "../services";
 
 const GenrePage = () => {
 

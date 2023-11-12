@@ -4,14 +4,16 @@
     display: flex;
     align-items: center;
     width: 100%;
+    padding: 0 50px;
 }
-.Header nav{
+
+.Header nav {
     display: flex;
     align-items: center;
     width: 40%;
 }
 
-.Header a{
+.Header a {
     text-decoration: none;
     font-size: 20px;
     font-family: var(--font-family);
@@ -22,9 +24,10 @@
     align-items: center;
 }
 
-.Header a:hover{
+.Header a:hover {
     border-bottom: 5px solid var(--btn-color);
 }
+
 .search_block {
     width: 60%;
     display: flex;
@@ -51,7 +54,7 @@
     transform: translateY(-50%);
 }
 
-.user_block{
+.user_block {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,6 +62,7 @@
     border: 3px solid var(--btn-color);
     width: 192px;
 }
+
 .user_block img {
     margin-right: 10px;
 }

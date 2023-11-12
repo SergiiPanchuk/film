@@ -1,8 +1,9 @@
 import {useParams, useSearchParams} from "react-router-dom";
 import React, {useEffect, useState} from "react";
-import {genreService} from "../services/genreService";
+
+import {genreService} from "../services";
 import {IMovies} from "../interfaces";
-import {Movies} from "../components/MovieContainer/Movies";
+import {Movies} from "../components";
 import css from "./btnPrevNext.module.css";
 
 const GenreIdPage = () => {
@@ -13,12 +14,14 @@ const GenreIdPage = () => {
     const [query, setQuery] = useSearchParams({page: '1'});
     const [prevNext, setPrevNext] = useState({prev: null, next: null});
 
+    let page:string = query.get('page');
+
     useEffect(() => {
         genreService.getByMovieId(genreId, query.get('page')).then(({data}) => {
             setMovies(data)
             setPrevNext({prev: data.page - 1, next: data.page + 1})
         })
-    }, [query.get('page'), query])
+    }, [page, query,genreId])
 
     const prev = () => {
         setQuery((prev) => {

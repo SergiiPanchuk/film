@@ -2,7 +2,7 @@ import {Outlet} from "react-router-dom";
 import 'reset-css';
 
 import css from "./MainLayouts.module.css"
-import {Header} from "../components/HeaderContainer";
+import {Header} from "../components";
 
 const MainLayouts = () => {
 

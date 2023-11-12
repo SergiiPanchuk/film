@@ -5,7 +5,7 @@ interface IProps {
     rating: number
 }
 
-const MovieRating:FC<IProps> = ({rating}) => {
+const MovieRating: FC<IProps> = ({rating}) => {
     return (
         <StarRatings
             rating={rating}

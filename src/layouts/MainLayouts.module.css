@@ -28,6 +28,5 @@ html[data-theme='liht'] {
 
 .MainLayouts {
     background: var(--background);
-    padding: 0 46px;
     min-height: 100vh;
 }

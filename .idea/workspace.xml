@@ -5,18 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d1b597e-0385-4fe8-a06e-e42cea8c6ef6" name="Changes" comment="add setTheme">
-      <change afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useTheme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CastContainer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GenreContainer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomeContainer/HomeUpcoming.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomeContainer/HomeUpcoming.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomeContainer/PreviewMovie.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomeContainer/PreviewMovie.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomeContainer/PreviewMovies.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomeContainer/PreviewMovies.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomeContainer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MovieContainer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/StarRatingContainer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/HomePage.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CastContainers/Actors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CastContainers/Actors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CastContainers/Actor.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CastContainer/Actor.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CastContainers/Actor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CastContainer/Actor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CastContainers/Actors.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CastContainer/Actors.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CastContainers/Actors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CastContainer/Actors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GenreContainer/Genre.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GenreContainer/Genre.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeaderContainer/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderContainer/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeaderContainer/SelectModes.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderContainer/SelectModes.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeaderContainer/SelectModes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderContainer/SelectModes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderContainer/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderContainer/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieContainer/Movie.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieContainer/Movie.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieContainer/Movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieContainer/Movie.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MovieContainer/MovieDetails.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieContainer/MovieDetails.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MovieContainer/MovieDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieContainer/MovieDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MovieContainer/Movies.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieContainer/Movies.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/StarRatingContainer/StarRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StarRatingContainer/StarRating.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/urls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/urls.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useTheme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useTheme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/MainLayouts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayouts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/MainLayouts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayouts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/GenreIdPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GenreIdPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/GenrePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/GenrePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MovieDetailsPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MovieDetailsPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/PopularPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PopularPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SearchPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SearchPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/TopPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/TopPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/UpcomingPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/UpcomingPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/btnPrevNext.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/btnPrevNext.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/castService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/castService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +61,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="CSS File" />
-        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -55,7 +90,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "C:/Users/Сергій/IdeaProjects/film/src/hooks",
+    "last_opened_file_path": "C:/Users/Сергій/IdeaProjects/film/src/components/StarRatingContainer",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,9 +103,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Сергій\IdeaProjects\film\src\hooks" />
-      <recent name="C:\Users\Сергій\IdeaProjects\film\public\icon" />
-      <recent name="C:\Users\Сергій\IdeaProjects\film\src\pages" />
+      <recent name="C:\Users\Сергій\IdeaProjects\film\src\components\StarRatingContainer" />
+      <recent name="C:\Users\Сергій\IdeaProjects\film\src\components\MovieContainer" />
+      <recent name="C:\Users\Сергій\IdeaProjects\film\src\components\HomeContainer" />
+      <recent name="C:\Users\Сергій\IdeaProjects\film\src\components\HeaderContainer" />
+      <recent name="C:\Users\Сергій\IdeaProjects\film\src\components\GenreContainer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Сергій\IdeaProjects\film\public\icon" />
@@ -89,7 +126,8 @@
       <workItem from="1699476297994" duration="6255000" />
       <workItem from="1699554619949" duration="12706000" />
       <workItem from="1699641903003" duration="12964000" />
-      <workItem from="1699729696784" duration="7948000" />
+      <workItem from="1699729696784" duration="10004000" />
+      <workItem from="1699805264366" duration="6342000" />
     </task>
     <task id="LOCAL-00001" summary="add Genre">
       <option name="closed" value="true" />
@@ -115,7 +153,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699735081063</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add setTheme">
+      <option name="closed" value="true" />
+      <created>1699737856627</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699737856627</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add setTheme">
+      <option name="closed" value="true" />
+      <created>1699737877133</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699737877133</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

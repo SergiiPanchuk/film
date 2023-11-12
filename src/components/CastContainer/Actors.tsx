@@ -1,7 +1,7 @@
 import {FC, useEffect, useState} from "react";
 
 import {ICast} from "../../interfaces";
-import {castService} from "../../services/castService";
+import {castService} from "../../services";
 import {Actor} from "./Actor";
 import css from "./Actors.module.css"
 
@@ -14,7 +14,7 @@ const Actors: FC<IProps> = ({id}) => {
     const [actors, setActors] = useState<ICast[]>(null);
 
     useEffect(() => {
-        castService.getByMovieId(id).then(({data})=>setActors(data.cast))
+        castService.getByMovieId(id).then(({data}) => setActors(data.cast))
     }, [id])
 
     return (

@@ -3,7 +3,7 @@ import {useLocation, useSearchParams} from "react-router-dom";
 
 import {IMovies} from "../interfaces";
 import {movieService} from "../services";
-import {Movies} from "../components/MovieContainer/Movies";
+import {Movies} from "../components";
 import css from "./btnPrevNext.module.css";
 
 
@@ -17,12 +17,14 @@ const SearchPage = () => {
     const [query, setQuery] = useSearchParams({page: '1'});
     const [prevNext, setPrevNext] = useState({prev: null, next: null});
 
+    let page:string = query.get('page');
+
     useEffect(() => {
         movieService.getByName(name, query.get('page')).then(({data}) => {
             setMovies(data)
             setPrevNext({prev: data.page - 1, next: data.page + 1})
         })
-    }, [query.get('page'), query, name])
+    }, [page, query, name])
 
     const prev = () => {
         setQuery((prev) => {

@@ -4,7 +4,7 @@ import {FC} from "react";
 import css from "./MovieDetails.module.css"
 import {baseImgURL} from "../../constants";
 import {IDetails, ProductionCompany} from "../../interfaces";
-import {Actors} from "../CastContainers/Actors";
+import {Actors} from "../CastContainer";
 
 interface IProps {
     movie: IDetails

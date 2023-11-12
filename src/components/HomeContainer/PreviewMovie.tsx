@@ -3,17 +3,14 @@ import {useNavigate, useSearchParams} from "react-router-dom";
 
 import {IMovie} from "../../interfaces";
 import {baseImgURL} from "../../constants";
-import css from "./Movie.module.css"
-import {MovieRating} from "../StarRatingContainer";
+import css from "./PreviewMovie.module.css"
 
 interface IProps {
-    movie: IMovie
+    moviePopulate: IMovie
 }
 
-
-const Movie: FC<IProps> = ({movie}) => {
-
-    const {title, poster_path,id,vote_average} = movie;
+const PreviewMovie: FC<IProps> = ({moviePopulate}) => {
+    const {poster_path, title, id} = moviePopulate;
     const [query, setQuery] = useSearchParams(`id=${id}`);
     const navigate = useNavigate();
 
@@ -27,12 +24,11 @@ const Movie: FC<IProps> = ({movie}) => {
     }
 
     return (
-        <div className={css.Movie}>
-                <img src={baseImgURL + poster_path} alt={title} className={css.movie__poster} onClick={set}/>
-                <MovieRating rating={vote_average}/>
-                <p onClick={set}>{title}</p>
+        <div className={css.PreviewMovie}>
+            <img src={baseImgURL + poster_path} alt={title} onClick={set}/>
+            <p onClick={set}>{title}</p>
         </div>
     );
 };
 
-export {Movie};
+export {PreviewMovie};
